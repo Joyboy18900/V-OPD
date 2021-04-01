@@ -1,0 +1,7 @@
+Code Error : 1045
+Message Error : SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+File Error : C:\laragon\www\V-OPD\backend\Config\baseFunction.php
+Trace Error : #0 C:\laragon\www\V-OPD\backend\Config\baseFunction.php(25): PDO->__construct('mysql:host=loca...', 'root', 'password', Array)
+#1 C:\laragon\www\V-OPD\backend\Controller\Doctor.php(237): connectDB->openConnection()
+#2 C:\laragon\www\V-OPD\backend\doctorController.php(54): Doctor->readDoctorSearch('o')
+#3 {main}
